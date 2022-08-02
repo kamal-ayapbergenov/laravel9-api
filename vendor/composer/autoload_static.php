@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit77987423f8364d7ab748e5fd712acc7b
+class ComposerStaticInitab74a79a36d13cce58674441f8202461
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -526,7 +526,7 @@ class ComposerStaticInit77987423f8364d7ab748e5fd712acc7b
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
+        'App\\Models\\Employee' => __DIR__ . '/../..' . '/app/Models/Employee.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -5781,10 +5781,10 @@ class ComposerStaticInit77987423f8364d7ab748e5fd712acc7b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit77987423f8364d7ab748e5fd712acc7b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit77987423f8364d7ab748e5fd712acc7b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit77987423f8364d7ab748e5fd712acc7b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit77987423f8364d7ab748e5fd712acc7b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitab74a79a36d13cce58674441f8202461::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitab74a79a36d13cce58674441f8202461::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitab74a79a36d13cce58674441f8202461::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitab74a79a36d13cce58674441f8202461::$classMap;
 
         }, null, ClassLoader::class);
     }
